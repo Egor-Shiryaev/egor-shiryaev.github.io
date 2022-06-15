@@ -7,52 +7,78 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="description" content="Сервисный центр по ремонту ноутбуков DELL">
    <meta content="ремонт ноутбуков, сервисный центр Dell, Dell" />
+   <link href="swiper-bundle.min.css" rel="stylesheet" />
    <link href="style.css" rel="stylesheet" />
+
    <title>CPS-сервисный центр Dell</title>
 </head>
 
 <body>
-   <main>
-      <section class="content">
-         <div class="content__title-container">
-            <div class="content__title">
-               <img class="content__title-img" src="./img/highlight.svg"></img>
-               <span class="content__title-text">
-                  <h1>Услуги и сервисы</h1>
-               </span>
+   <section class="services services-container">
+      <div class="services__title services__title-container services__title-style">ремонт техники различных брендов
+      </div>
+
+      <div class="swiper services__brends-wrapper">
+         <div class="swiper-wrapper services__brends services__brends-container">
+            <div class="swiper-slide services__card services__card-style services__card--hidden">
+               <img class="services__img-brend" src="img/Bitmap_lenovo.svg">
+               <a class="services__link" href="#"><img class="services__img-link" src="img/Vector.svg"></a>
+            </div>
+            <div class="swiper-slide services__card services__card-style services__card--hidden">
+               <img class="services__img-brend" src="img/Bitmap_samsung.svg">
+               <a class="services__link" href="#"><img class="services__img-link" src="img/Vector.svg"></a>
+            </div>
+            <div class="swiper-slide services__card services__card-style services__card--hidden">
+               <img class="services__img-brend" src="img/Bitmap_apple.svg">
+               <a class="services__link" href="#"><img class="services__img-link" src="img/Vector.svg"></a>
+            </div>
+            <div class="swiper-slide services__card services__card-style services__card--hidden">
+               <img class="services__img-brend" src="img/Bitmap_viewsonic.svg">
+               <a class="services__link" href="#"><img class="services__img-link" src="img/Vector.svg"></a>
+            </div>
+            <div class="swiper-slide services__card services__card-style services__card--hidden">
+               <img class="services__img-brend" src="img/Bitmap_bosch.svg">
+               <a class="services__link" href="#"><img class="services__img-link" src="img/Vector.svg"></a>
+            </div>
+            <div class="swiper-slide services__card services__card-style services__card--hidden">
+               <img class="services__img-brend" src="img/Bitmap_hp.svg">
+               <a class="services__link" href="#"><img class="services__img-link" src="img/Vector.svg"></a>
+            </div>
+            <div class="swiper-slide services__card services__card-style services__card--hidden">
+               <img class="services__img-brend" src="img/Bitmap_acer.svg">
+               <a class="services__link" href="#"><img class="services__img-link" src="img/Vector.svg"></a>
+            </div>
+            <div class="swiper-slide services__card services__card-style services__card--hidden">
+               <img class="services__img-brend" src="img/Bitmap_sony.svg">
+               <a class="services__link" href="#"><img class="services__img-link" src="img/Vector.svg"></a>
+            </div>
+            <div class="swiper-slide services__card services__card-style services__card--hidden">
+               <img class="services__img-brend" src="img/Bitmap_lenovo.svg">
+               <a class="services__link" href="#"><img class="services__img-link" src="img/Vector.svg"></a>
+            </div>
+            <div class="swiper-slide services__card services__card-style services__card--hidden">
+               <img class="services__img-brend" src="img/Bitmap_samsung.svg">
+               <a class="services__link" href="#"><img class="services__img-link" src="img/Vector.svg"></a>
+            </div>
+            <div class="swiper-slide services__card services__card-style services__card--hidden">
+               <img class="services__img-brend" src="img/Bitmap_apple.svg">
+               <a class="services__link" href="#"><img class="services__img-link" src="img/Vector.svg"></a>
             </div>
          </div>
 
-         <div class="content__nav content__nav-container content__nav-scroll">
-            <a class="content-nav__link content-nav__link-style content-nav__link--active" href="#">Ремонтируемые
-               устройства</a>
-            <a class="content-nav__link content-nav__link-style" href="#">Дополнительные услуги</a>
-            <a class="content-nav__link content-nav__link-style" href="#">Цены на услуги</a>
-            <a class="content-nav__link content-nav__link-style" href="#">Адреса сервисных центров</a>
-            <a class="content-nav__link content-nav__link-style" href="#">Специальные цены</a>
-            <a class="content-nav__link content-nav__link-style" href="#">Отзывы</a>
-         </div>
+         <div class="swiper-pagination"></div>
 
-         <div class="content__info">
-            <div class="content__txt-container content__txt-style">
-               <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell.
-                  Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-               </p>
-               <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
-                  что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются
-                  по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+      </div>
+      <div class="services__btn-container">
+         <a class="services__btn services__btn-style" href="#">
+            <img class='services__btn-img' src="img/icon.svg"></img>
+            <span class="services__btn-text">Показать все</span>
+         </a>
+      </div>
+   </section>
+   <script src="swiper-bundle.min.js"></script>
+   <script src="index.js"></script>
 
-               <div class="sec-about__btn" id="#"><button class="content-info__btn content-info__btn-style"><img
-                        class="content-info__btn-img" src="img/expand.svg"> Читать далее</button>
-               </div>
-            </div>
-
-            <div class="content__img-container">
-               <img class="content__img content__img-style" src="img/bg.jpg"></img>
-            </div>
-         </div>
-      </section>
-  
-   </main>
 </body>
+
 </html>
